@@ -15,7 +15,7 @@ namespace ConsumirClienteWS
         Producto.WebService1SoapClient producto = new Producto.WebService1SoapClient();
         protected void Page_Load(object sender, EventArgs e)
         {
-            llenarTablaProductos();
+            
         }
 
         protected void limpiar()
